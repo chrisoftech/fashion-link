@@ -38,7 +38,10 @@ class HomePage extends StatelessWidget {
       bottomNavigationBar: BottomBar(
         onChangeActiveTab: (int index) {},
       ),
-      body: Container(),
+      body: CategoryNavigator(
+        categories: ['Wears', 'Jeweries', 'Shoes', 'Others'],
+        onChangeActiveTab: (int index) {},
+      ),
     );
   }
 }
