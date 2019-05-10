@@ -68,7 +68,7 @@ class _CategoryNavigatorState extends State<CategoryNavigator> {
                   ),
                 ],
               ),
-              SizedBox(width: _deviceWidth / 8)
+              SizedBox(width: _deviceWidth / 10)
             ],
           ),
         ),
